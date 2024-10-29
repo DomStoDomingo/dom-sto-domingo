@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'primereact/resources/themes/saga-blue/theme.css';  // Choose a theme here
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import './index.css'; // Import Tailwind here as well
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
