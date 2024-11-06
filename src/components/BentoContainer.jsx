@@ -4,7 +4,7 @@ import TopLeftContainer from "./TopLeftContainer";
 import TopMiddleContainer from "./TopMiddleContainer";
 import TopRightContainer from "./TopRightContainer";
 
-export default function BentoContainer(){
+const BentoContainer = () =>{
     return(
         <div className="bento-container h-auto flex flex-col gap-4">
             <div className="bento-item left h-auto w-full flex flex-row gap-4">
@@ -17,3 +17,5 @@ export default function BentoContainer(){
         </div>
     );
 }
+
+export default BentoContainer;
